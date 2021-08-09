@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-title>
+            Detalhes
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+        <ion-card-header>
+            <ion-card-subtitle>{{dados.nomeCivil}}</ion-card-subtitle>
+            <ion-card-title>{{dados.cpf}}</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+            {{dados.ultimoStatus.siglaPartido}}
+        </ion-card-content>
+    </ion-card>
+</ion-content>
